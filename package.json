@@ -1,0 +1,14 @@
+{
+  "name": "static404",
+  "version": "1.0.0",
+  "description": "A simple static 404 site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nickels Witte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

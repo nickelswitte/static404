@@ -1,0 +1,13 @@
+services:
+  static404:
+    build: .
+    container_name: static404
+    expose:
+      - 3000
+    environment:
+      VIRTUAL_HOST: sdbx.dev
+      LETSENCRYPT_HOST: sdbx.dev
+
+networks:
+  default:
+    name: nginx-proxy
